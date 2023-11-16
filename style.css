@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lato&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato' , sans-serif;
+  font-family: 'Kanit' , sans-serif;
+}
+
+.menubar{
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  box-shadow: 0 0 10px #666;
+}
+
+.menubar .logo{
+  float: left;
+}
+
+.menubar h1{
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.menubar ul.menu{
+  list-style: none;
+  float: right;
+}
+
+.menubar ul.menu li {
+  float: right;
+  margin-right: 50px;
+}
+
+.menubar ul.menu li a {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0;
+}
+
+
+.header {
+    background: #666 url(https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.header_area {
+    padding-top: 150px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    width: 660px;
+}
+.header_area h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+.header_area p {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 480px;
+    font-size: 16px;
+}
+
+.info1{
+  width: 100%;
+  height: 700px;
+  background-color: white;
+}
+
+.info1_text {
+  float: left;
+  width: 460px;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+.info1_area img {
+  margin-top: 70px;
+  margin-left: 100px;
+  float: left;
+}
+
+.info2{
+  width: 100%;
+  height: 600px;
+  background-color: #495F74;
+}
+
+.info2_text {
+ float: left;
+  width: 460px;
+  margin-left: 90px;
+  margin-top: 50px;
+  color: white;
+  
+}
+
+.info2_area img{
+  margin-top: 50px;
+  margin-left: 100px;
+  float: left;
+}
+
+
+
+
+
+
+.footer1{
+ 
+  text-align: center;
+  
+  width: 100%;
+}
+
+@media (max-width: 1000px){
+  .info1_text{
+    color: white;
+  }
+  .info2_text{
+    color: black;
+  }
+
+  .footer1{
+    text-align:center;
+    width:100%;
+  }
+}
